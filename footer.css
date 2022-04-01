@@ -1,0 +1,177 @@
+.footer-bg{
+  display: flex;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.479);
+box-shadow: 0 8px 32px 0 rgba(49, 78, 58, 0.37);
+backdrop-filter: blur( 8.5px );
+-webkit-backdrop-filter: blur( 8.5px );
+}
+
+
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1366px;
+  padding: 40px 70px 20px 70px;
+}
+
+.footer h1{
+  padding-top: 5px;
+}
+
+.footer-esquerda{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  flex: 0.6;
+  line-height: 1.45;
+  padding: 0px 70px;
+}
+
+.footer-direita{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+  flex: 2;
+}
+
+.footer-direita #input-text , .footer-direita #input-email{
+  width: 70%;
+  height: 7%;
+  border-radius: 10px;
+  color: black;
+  font-size: large;
+}
+
+.footer-direita .input-mensagem{
+  width: 90%;
+  height: 40%;
+  color: black;
+  line-height: 2;
+  border-radius: 10px;
+  font-size: medium;
+  resize: none;
+}
+
+.footer-direita p{
+  padding: 5px;
+}
+
+.footer-direita button{
+  align-self: flex-end;
+  width: 200px;
+  padding: 5px;
+  margin-right: 75px;
+  display: inline-block;
+    border: none;
+    background: linear-gradient(100deg, #FF20DA,#BAD602 ,#2BFC55);
+    background-size: 150%;
+    color: black;
+    font-size: large;
+    font-weight: 900;
+ font-style: italic;
+ margin-top: 20px;
+ border-radius: 50px;
+}
+
+
+
+.footer-direita button:hover{
+  transition: 200ms;
+  background: linear-gradient(30deg, #FF20DA,#BAD602 ,#2BFC55);
+  background-size: 130%;
+}
+
+.footer-direita h1{
+  align-self: center;
+}
+.footer-esquerda h1{
+  padding: 20px;
+}
+
+
+.footer-esquerda h3{
+color: #2BFC55;
+font-style: italic;
+}
+
+.footer-esquerda h6{
+  margin-bottom: 15px;
+}
+
+
+.footer-direita i{
+  align-self: flex-end;
+  padding-top: 40px;
+  font-size: 1.5rem;
+
+
+}
+
+
+.footer-direita i:hover{
+  color: #2bfc5586;
+
+}
+
+@media only screen and (min-width : 250px) and (max-width : 720px){
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.footer img{
+  width: 120px;
+  height: 120px;
+}
+
+.footer span{
+  font-size: small;
+}
+
+.footer h1{
+  font-size: medium;
+}
+
+.input-mensagem{
+  width: 50%;
+  height: 10%;
+}
+
+.footer-direita button{
+width: 100px;
+align-self: center;
+margin: 20px 0px;
+
+
+}
+
+.footer-direita input{
+  width: 100%;
+}
+
+.footer-direita{
+  padding-top: 75px;
+}
+
+
+
+}
+
+
+@media only screen and (min-width : 720px) and (max-width : 1366px){
+  .footer-esquerda{
+    flex: 1;
+  }
+
+
+
+}
+

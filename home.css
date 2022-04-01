@@ -1,0 +1,209 @@
+.home{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1366px;
+  padding: 0px 70px;
+  margin-top: 20px;
+  flex-wrap: wrap-reverse;
+}
+
+
+
+.home-esquerda{
+  display: flex;
+  flex-direction: column;
+  line-height: 1.25;
+  flex: 1;
+  justify-content: space-around;
+}
+
+
+.home span{
+  max-width: 50ch;
+}
+
+
+.home button{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-self: flex-start;
+  margin-top: 20px;
+  font-weight: 900;
+  padding: 10px 30px;
+    border-radius: 10px;
+    display: inline-block;
+    border: none;
+    background: linear-gradient(100deg, #FF20DA,#BAD602 ,#2BFC55);
+    background-size: 150%;
+    color: black;
+    font-size: large;
+    font-weight: 500;
+ font-style: italic;
+    margin-bottom: 10px;
+}
+
+.home button:hover{
+  transition: 200ms;
+  background: linear-gradient(30deg, #FF20DA,#BAD602 ,#2BFC55);
+    background-size: 130%;
+}
+
+
+.esquerda-texto{
+  font-size: 4rem;
+  font-weight: 450;
+  margin-top: 40px;
+  
+}
+
+
+.esquerda-texto:after{
+  content: " Web";
+  background: linear-gradient(100deg, #FF20DA,#BAD602 ,#2BFC55);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.home-direita{
+  display: flex;
+  flex-direction: column;
+  flex: 0.3;
+}
+.home span{
+  font-style: italic;
+}
+
+.siga-me{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  gap: 30px;
+}
+
+.siga-me i:hover{
+  transform: scale(1.5);
+
+}
+  
+
+
+
+
+
+@media only screen and (min-width : 250px) and (max-width : 720px){
+  .home{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 0px 10px;
+  }
+
+  .home-esquerda {
+    display: flex;
+    order: 2;
+      }
+
+      .esquerda-texto{
+        font-size: 2rem;
+        flex-wrap: wrap;
+      }
+      .esquerda-texto:after{
+        content: " Web";
+        background: linear-gradient(100deg, #FF20DA,#BAD602 ,#2BFC55);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        flex-wrap: wrap;
+        
+      }
+
+      .home img{
+        display:flex;
+        width: 95vw;
+
+      }
+
+      .home-esquerda{
+        display:flex;
+        width: 95vw;
+        align-items: center;
+
+      }
+
+
+      .home span{
+        font-size: small;
+        font-style: italic;
+      }
+
+      .home button{
+        font-size: medium;
+        padding: 10px 40px;
+        align-self: center;
+      }
+
+    .siga-me{
+      padding: 10px 0px;
+    }
+
+  
+
+
+}
+
+@media only screen and (min-width : 721px) and (max-width : 1080px){
+
+  .home{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 0px 10px;
+  }
+
+  .home-esquerda {
+    display: flex;
+    order: 2;
+      }
+
+      .esquerda-texto{
+        font-size: 3rem;
+        flex-wrap: wrap;
+      }
+      .esquerda-texto:after{
+        content: " Web";
+        background: linear-gradient(100deg, #FF20DA,#BAD602 ,#2BFC55);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        flex-wrap: wrap;
+        
+      }
+
+      .home img{
+        display:flex;
+        align-content: center;
+        width: 95vw;
+
+      }
+
+      .home-esquerda{
+        display:flex;
+        width: 95vw;
+        align-items: center;
+
+      }
+      .home button{
+        font-size: medium;
+        padding: 10px 40px;
+        align-self: center;
+      }
+
+       .siga-me{
+      padding: 20px 0px;
+    }
+
+
+}

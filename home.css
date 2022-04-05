@@ -135,7 +135,8 @@
 
 
       .home span{
-        font-size: small;
+        font-size: large;
+        font-weight: 300;
         font-style: italic;
       }
 

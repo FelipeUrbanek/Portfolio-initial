@@ -32,3 +32,11 @@ $('#btn-email').click(function () {
     document.getElementById('input-mensagem-footer').value = ''
   }
 })
+
+$(document).ready(function () {
+  if ($(window).width() >= 720) {
+    $('.projetos img').mouseenter(function () {
+      $('.projetos span').css('display', 'revert')
+    })
+  }
+})

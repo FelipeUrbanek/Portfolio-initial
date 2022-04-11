@@ -33,7 +33,10 @@ justify-content: center
   max-width: 18ch;
   font-style: italic;
   color: rgb(199, 198, 198);
+  display: none;
+  transition: 2s;
 }
+
 
 
 

@@ -79,4 +79,8 @@ border-radius: 10px;
   font-size: 20px;
 }
 
+.tecnologias span{
+  display: none;
+}
+
 }
